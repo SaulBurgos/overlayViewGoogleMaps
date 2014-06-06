@@ -1,4 +1,4 @@
 overlayViewGoogleMaps
 =====================
 
-Custom overlyView to load a image inside Google Mpas
+Custom overlyView to load an image inside Google Mpas
