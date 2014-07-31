@@ -179,8 +179,10 @@ USGSOverlay.prototype.onRemove = function() {
 	if(this.div_){
 		this.div_.parentNode.removeChild(this.div_);
 		this.div_ = null;
-		this.rectangle_.setMap(null);
-		this.markerX_.setMap(null);	
+		if( typeof this.rectangle_ !== 'undefined') {
+			this.rectangle_.setMap(null);
+			this.markerX_.setMap(null);
+		}		
 	}
 	
   
